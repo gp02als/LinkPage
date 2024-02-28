@@ -18,7 +18,7 @@
 
 
 
-        .small.blue .btn{
+        .green .btn{
             color:#005249;
             padding:10px;
             margin:0;
@@ -26,20 +26,20 @@
             width: 220px;
             border-bottom:0;
         }
-        .small.blue .btn.blue{
+        .green .btn{
             color:#005249;
             font-weight: bold;
             background-color: #e8faea;
             border:solid 1px #90c5bf;
 			border-top:0;
         }
-        .small.blue .btn.blue:active{
+        .green .btn:active{
             border-bottom:solid 1px gray;
         }
-        .small.blue .btn.blue.noLink{
+        .green .btn.noLink{
             color: #999999;
         }
-        .small.blue .btn.head_title{
+        .green .btn.head_title{
             color: #fff;
             background-color: #009f8e;
             border-bottom:none;
@@ -50,21 +50,21 @@
             font-weight : bold;
             margin:0;
         }
-        .small.blue .btn.head_title:active{
+        .green .btn.head_title:active{
             border-bottom:none;
         }
 
-        .small.blue .part{
+        .green .part{
             margin-bottom : 20px;
             margin-right : 20px;
             float : left;
         }
-        .small.blue .controller{
+        .green .controller{
             margin-bottom : 20px;
             font-weight: bold;
         }
 
-        .small.blue .controller div {
+        .green .controller div {
             background-color: #cccccc;
             padding:20px;
         }
@@ -74,15 +74,15 @@
 
         #tabMenu, #linkUrl { display: table;}
 
-        .small.blue .tab > div {
+        .green .tab > div {
             float : left;
         }
 
-        .small.blue .tab {
+        .green .tab {
             float : none;
         }
 
-        .small.blue .tab .btn{
+        .green .tab .btn{
             color:#fff;
             padding:10px;
             margin:0;
@@ -95,7 +95,7 @@
             text-align: center;
         }
 
-        .small.blue .tab .btn.on{
+        .green .tab .btn.on{
             color:#333;
             font-weight: bold;
             background-color: #eee;
@@ -104,39 +104,39 @@
 
 
 
-        .mobile.small.blue .btn{
+        .mobile.green .btn{
             padding:20pt;
             width: 710pt;
         }
-        .mobile.small.blue .btn.blue{
+        .mobile.green .btn{
             border:solid 2pt #90c5bf;
 			border-top:0;
         }
-        .mobile.small.blue .btn.blue:active{
+        .mobile.green .btn:active{
             border-bottom: solid 2pt #90c5bf;
         }
-        .mobile.small.blue .btn.head_title{
+        .mobile.green .btn.head_title{
             border-left: solid 2pt #90c5bf;
             border-right: solid 2pt #90c5bf;
 			font-size : 32pt;
         }
 
-        .mobile.small.blue .part{
+        .mobile.green .part{
             margin-bottom : 40pt;
             margin-right : 20pt;
         }
-        .mobile.small.blue .controller{
+        .mobile.green .controller{
             margin-bottom : 20pt;
         }
 
-        .mobile.small.blue .controller div {
+        .mobile.green .controller div {
             padding:20pt;
         }
 
 
 
 
-        .mobile.small.blue .tab .btn{
+        .mobile.green .tab .btn{
             font-size:32pt;
             padding:20pt;
             width: 210pt;
@@ -207,7 +207,7 @@ GitHub	https://github.com/kmsoooooo1
 
 
 
-<div id="tabMenu" class="pc small blue">
+<div id="tabMenu" class="pc small green">
     <div class="part">
         <div id="tabCount" class="" style="display: none;"></div>
         <div id="tab" class="tab">
@@ -221,7 +221,7 @@ GitHub	https://github.com/kmsoooooo1
 
 
 
-<div id="linkUrl" class="pc small blue">
+<div id="linkUrl" class="pc small green">
 </div>
 
 
@@ -318,7 +318,7 @@ GitHub	https://github.com/kmsoooooo1
                         noLinkClass = " noLink";
                     }
 
-                    createHtml = createHtml.concat('\n	<div><a class="btn blue', noLinkClass,'" target="_blank" href="', arrLinkData[key][lineKey].url ,'" >', arrLinkData[key][lineKey].title ,'</a></div>');
+                    createHtml = createHtml.concat('\n	<div><a class="btn green', noLinkClass,'" target="_blank" href="', arrLinkData[key][lineKey].url ,'" >', arrLinkData[key][lineKey].title ,'</a></div>');
 
                 }
 
